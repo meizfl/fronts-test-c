@@ -8,6 +8,7 @@ int main() {
     FILE *fc_list;
     char font_family[1024];
     char command[1024];
+    (void)command;
 
     // Create HTML file
     html_file = fopen("/tmp/html_fonts.html", "w");
